@@ -23,7 +23,15 @@ export const DisplayBook = styled.div`
 `;
 
 export const NavBar = styled.nav`
+  display: flex;
+  align-items: center;
   color: #9b59b6;
+  h1 {
+    margin-left: 10px;
+  }
+  svg {
+    font-size: 40px;
+  }
 `;
 
 export const AllBooksDisplay = styled.div`

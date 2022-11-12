@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { BsBookHalf } from "react-icons/bs";
 import {
   AllBooksDisplay,
   DisplayBook,
@@ -34,6 +35,7 @@ export default function BookStore() {
     <MainStore>
       <DisplayBook>
         <NavBar>
+          <BsBookHalf />
           <h1>BOOKS-READER-STORE</h1>
         </NavBar>
         <h2>Select Today's Book</h2>

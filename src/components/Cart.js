@@ -36,6 +36,9 @@ export default function Cart({ seconds, cart }) {
       <UserInfo>
         <h2>Md Gulam Quddus</h2>
         <p>Rome, Italy</p>
+        <div>
+          <p>5 Books Reading</p>
+        </div>
       </UserInfo>
       <h3>Add Break</h3>
       <AddBreak>

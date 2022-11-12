@@ -7,6 +7,10 @@ export const QuestionAnsDiv = styled.div`
   grid-template-columns: repeat(2, 2fr);
   grid-gap: 5rem;
   margin-top: 50px;
+  @media screen and (max-width: 700px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const QusestionItem = styled.div`

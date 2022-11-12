@@ -52,41 +52,5 @@
     "name": "JavaScript Ninja",
     "second": 30000,
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3J1j2POXVcrAFOEnFcGPDPLDFW2YRi-UxJg&usqp=CAU"
-  },
-  {
-    "id": "ac44095f-230e-4502-8816-dea3eaae8320",
-    "name": "Responsive Web Design",
-    "second": 25000,
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUd_wsNIEYSD-X7GATrkn8Vzvb_9ZKFv1BA&usqp=CAU"
-  },
-  {
-    "id": "d0803f97-966f-4296-ad31-a7f70fc86fab",
-    "name": "Node Js",
-    "second": 15000,
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAoiBBHUFDjkgO7KtGaFMaR7dkH6YSt4TGFA&usqp=CAU"
-  },
-  {
-    "id": "8a5b4a9c-76ea-4fbb-9c70-9548de4eab01",
-    "name": "Php for the web",
-    "second": 25000,
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVqcd3eo3LkeFUqoHeiTl84GRkooNOYvBUEQ&usqp=CAU"
-  },
-  {
-    "id": "b357e19b-4dd9-4fc7-b5c0-9ed5255464ba",
-    "name": "Ruby On Rails",
-    "second": 30000,
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD3BNk02iJKpXdxLv2Gld6FL8_0y5hLB5Upg&usqp=CAU"
-  },
-  {
-    "id": "e4220958-06d2-4d50-96fa-0163a563f43d",
-    "name": "Mastering Type",
-    "second": 45200,
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRSWtDPC8jk_UlC0d315t76Pu4-NHpg8uk9B7FehbKe-esPwVAVc3xtObBx9XPUS7uqZU&usqp=CAU"
-  },
-  {
-    "id": "ae69f0e4-559c-4b24-8032-80b63f9b5073",
-    "name": "Python Flask",
-    "second": 22000,
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx_gxTEPFPcbDz8EE-qguZHSJ3dHJSQBM3-lobEw1pfpem7H_rbFWPn7rtv__Nm565-G0&usqp=CAU"
   }
 ]

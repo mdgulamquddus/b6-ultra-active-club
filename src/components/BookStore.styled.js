@@ -8,7 +8,6 @@ export const MainStore = styled.div`
   @media screen and (max-width: 700px) {
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-flow: dense;
   }
 `;
 

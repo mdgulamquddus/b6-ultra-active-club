@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const QuestionAnsDiv = styled.div`
   width: 90%;
-  margin: 0 auto;
+  margin: 50px auto;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   grid-gap: 5rem;

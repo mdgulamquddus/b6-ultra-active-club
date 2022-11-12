@@ -29,7 +29,7 @@ export default function QuestionAns() {
         </p>
       </QusestionItem>
       <QusestionItem>
-        <h2>Question 2. State Vs. Props</h2>
+        <h2>Question 2. State Vs. Props?</h2>
         <p>
           <strong>State :</strong>
           The state is an updatable structure that is used to contain data or
@@ -51,7 +51,21 @@ export default function QuestionAns() {
           cannot modify the props from inside the component.
         </p>
       </QusestionItem>
-      <QusestionItem>Q3</QusestionItem>
+      <QusestionItem>
+        <h2>Question 3. Uses of useEffect Hook in react?</h2>
+        <p>
+          The useEffect Hook allows you to perform side effects in your
+          components. Some examples of side effects are: fetching data, directly
+          updating the DOM, and timers. useEffect accepts two arguments. The
+          second argument is optional. The callback function we pass to the
+          useEffect hook runs the side effects. React runs it on every render of
+          a component by default. However, side effects can be expensive and
+          performance-intensive to run on every render. We can control it using
+          the dependency array argument we pass to the useEffect hook. In this
+          section, we will learn six usages of useEffect hook to run and clean
+          up a side effect.
+        </p>
+      </QusestionItem>
     </QuestionAnsDiv>
   );
 }

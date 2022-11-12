@@ -21,7 +21,7 @@ export default function Cart({ seconds, cart }) {
   let totalSeconds = 0;
 
   for (const second of cart) {
-    totalSeconds = totalSeconds + second.price;
+    totalSeconds = totalSeconds + second.second;
   }
 
   const addBreakSecond = (e) => {
@@ -55,7 +55,7 @@ export default function Cart({ seconds, cart }) {
         </FlexDiv>
         <FlexDiv>
           <h3>Break Time</h3>
-          <span>{secondValue} seconds</span>
+          <span> {secondValue ? secondValue : "0"} seconds</span>
         </FlexDiv>
       </BookReadingDetails>
       <CompleteButton onClick={notify}>Activity Completed</CompleteButton>

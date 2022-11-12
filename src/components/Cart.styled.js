@@ -44,4 +44,5 @@ export const CompleteButton = styled.button`
   padding: 10px 0;
   color: #fff;
   font-weight: bolder;
+  cursor: pointer;
 `;

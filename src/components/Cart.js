@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import SingleSecond from "./SingleSecond";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import {
   AddBreak,
   BookReadingDetails,
@@ -26,6 +28,8 @@ export default function Cart({ seconds, cart }) {
     localStorage.setItem("second", e.second);
     setSecondValue(e.second);
   };
+
+  const notify = () => toast.success("You Completed Todays Reading");
 
   return (
     <DisplayUserAct>
@@ -54,7 +58,8 @@ export default function Cart({ seconds, cart }) {
           <span>{secondValue} seconds</span>
         </FlexDiv>
       </BookReadingDetails>
-      <CompleteButton>Activity Completed</CompleteButton>
+      <CompleteButton onClick={notify}>Activity Completed</CompleteButton>
+      <ToastContainer />
     </DisplayUserAct>
   );
 }

@@ -3,6 +3,7 @@ import SingleSecond from "./SingleSecond";
 import {
   AddBreak,
   BookReadingDetails,
+  CompleteButton,
   DisplayUserAct,
   FlexDiv,
   UserInfo,
@@ -53,6 +54,7 @@ export default function Cart({ seconds, cart }) {
           <span>{secondValue} seconds</span>
         </FlexDiv>
       </BookReadingDetails>
+      <CompleteButton>Activity Completed</CompleteButton>
     </DisplayUserAct>
   );
 }

@@ -33,3 +33,15 @@ export const FlexDiv = styled.div`
   background-color: #ecf0f1;
   border-radius: 5px;
 `;
+
+export const CompleteButton = styled.button`
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #8e44ad;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  color: #fff;
+  font-weight: bolder;
+`;
